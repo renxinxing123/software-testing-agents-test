@@ -1,6 +1,6 @@
-# Software Testing Agents with LangChain, Camel, and Crew
+# Software Testing Agents with LangChain, CAMEL-AI, and Crew
 
-This project demonstrates a **multi-agent software testing system** built using Coral Protocol, supporting agents from three different frameworks—LangChain, Camel, and Crew. The system enables automatic understanding of codebases, pull request testing, and test coverage analysis in any compatible GitHub repository.
+This project demonstrates a **multi-agent software testing system** built using Coral Protocol, supporting agents from three different frameworks—LangChain, CAMEL-AI, and Crew. The system enables automatic understanding of codebases, pull request testing, and test coverage analysis in any compatible GitHub repository.
 
 ---
 
@@ -29,7 +29,7 @@ The system consists of six cooperating agents, each with a specific responsibili
 * **GitCloneAgent (Crew):**
   Clones the GitHub repository and checks out the specified pull request branch.
 
-* **CodeDiffReviewAgent (Camel):**
+* **CodeDiffReviewAgent (CAMEL-AI):**
   Analyzes the PR diff, identifies changed functions, maps to corresponding tests, and locates relevant test files.
   **Tip:**
 
