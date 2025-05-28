@@ -8,14 +8,8 @@ This project demonstrates a **multi-agent software testing system** built using 
 
 This project currently supports **three main functionalities**:
 
-1. **Comprehensive Repository Understanding**
-   Automatically analyzes a GitHub repository and provides high-level summaries and usage instructions.
-
-2. **Unit Test Execution for New PRs**
+1. **Unit Test Execution for New PRs**
    Automatically runs unit tests related to code changes in new pull requests.
-
-3. **Unit Test Coverage Evaluation for New PRs**
-   Reviews code changes in a pull request and evaluates whether all necessary cases are covered by existing unit tests, suggesting improvements if needed.
 
 ---
 
@@ -59,12 +53,6 @@ The system consists of six cooperating agents, each with a specific responsibili
 
 * **UnitTestRunnerAgent (LangChain):**
   Runs specified unit tests using `pytest` and returns structured results.
-
-* **RepoUnderstandingAgent (LangChain):**
-  Analyzes the entire repository, providing comprehensive summaries and usage instructions.
-
-* **RepoUnitTestAdvisorAgent (LangChain):**
-  Assesses whether new PRs are sufficiently covered by existing unit tests, and recommends additional tests if necessary.
 
 ---
 
@@ -119,43 +107,13 @@ python 2-camel-CodeDiffReviewAgent.py
 
 # Terminal 4: UnitTestRunner Agent
 python 3-langchain-UnitTestRunnerAgent.py
-
-# Terminal 5: RepoUnderstanding Agent
-python 4-langchain-RepoUnderstandingAgent.py
-
-# Terminal 6: RepoUnitTestAdvisor Agent
-python 5-langchain-RepoUnitTestAdvisorAgent.py
 ```
 
 ---
 
 ## Usage Examples
 
-### 1. **Repository Understanding**
-
-Ask the Interface Agent for a comprehensive summary of a repository:
-
-```
-Please give me a comprehensive instruction of Coral-Protocol/coraliser.
-```
-
-Or specify a branch:
-
-```
-Please give me a comprehensive instruction of the master branch of Coral-Protocol/coral-server.
-```
-
-Or for other public repositories:
-
-```
-Please give me a comprehensive instruction of the master branch of camel-ai/camel.
-```
-
-**🎬 [Watch Video Demo](https://youtu.be/nihOChs5l3k)**
-
----
-
-### 2. **Unit Test Execution for New PRs**
+### 1. **Unit Test Execution for New PRs**
 
 Ask the system to execute all relevant unit tests for a PR:
 
@@ -165,18 +123,6 @@ Please execute the unit test for the '2' PR in repo 'renxinxing123/camel-softwar
 ```
 
 **🎬 [Watch Video Demo](https://youtu.be/-ZYZEo96L1w)**
-
----
-
-### 3. **Unit Test Coverage Evaluation**
-
-Ask the system to evaluate whether a PR’s changes are fully covered by tests:
-
-```
-I created a new branch, `new-semantic-scholar-toolkit`, in the repository `renxinxing123/camel-software-testing` and opened a new pull request (#3). For the changed files, could you please help me check whether the corresponding unit tests fully cover all necessary cases? Are there any additional tests that should be added?
-```
-
-**🎬 [Watch Video Demo](https://youtu.be/rq8zW02MEmw)**
 
 ---
 
