@@ -83,7 +83,10 @@ The system consists of six cooperating agents, each with a specific responsibili
 ## Installation
 
 ```bash
-pip install langchain-mcp-adapters langchain-openai langchain langchain-core PyGithub
+pip install PyGithub
+pip install langchain-mcp-adapters langchain-openai langchain langchain-core
+pip install crewai
+pip install 'camel-ai[all]'
 ```
 
 ---
