@@ -151,6 +151,10 @@ Or for other public repositories:
 Please give me a comprehensive instruction of the master branch of camel-ai/camel.
 ```
 
+**🎬 Video Demo:**
+[![Repository Understanding Demo](https://img.youtube.com/vi/nihOChs5l3k/hqdefault.jpg)](https://youtu.be/nihOChs5l3k)
+[https://youtu.be/nihOChs5l3k](https://youtu.be/nihOChs5l3k)
+
 ---
 
 ### 2. **Unit Test Execution for New PRs**
@@ -162,6 +166,10 @@ Please execute the unit test for the '6' PR in repo 'renxinxing123/software-test
 Please execute the unit test for the '2' PR in repo 'renxinxing123/camel-software-testing'.
 ```
 
+**🎬 Video Demo:**
+[![Unit Test Execution Demo](https://img.youtube.com/vi/-ZYZEo96L1w/hqdefault.jpg)](https://youtu.be/-ZYZEo96L1w)
+[https://youtu.be/-ZYZEo96L1w](https://youtu.be/-ZYZEo96L1w)
+
 ---
 
 ### 3. **Unit Test Coverage Evaluation**
@@ -171,6 +179,10 @@ Ask the system to evaluate whether a PR’s changes are fully covered by tests:
 ```
 I created a new branch, `new-semantic-scholar-toolkit`, in the repository `renxinxing123/camel-software-testing` and opened a new pull request (#3). For the changed files, could you please help me check whether the corresponding unit tests fully cover all necessary cases? Are there any additional tests that should be added?
 ```
+
+**🎬 Video Demo:**
+[![Unit Test Coverage Evaluation Demo](https://img.youtube.com/vi/rq8zW02MEmw/hqdefault.jpg)](https://youtu.be/rq8zW02MEmw)
+[https://youtu.be/rq8zW02MEmw](https://youtu.be/rq8zW02MEmw)
 
 ---
 
